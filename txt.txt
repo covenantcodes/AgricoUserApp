@@ -1,0 +1,8 @@
+     async function GetLocationPermission(){
+      let { status } = await Location.requestForegroundPermissionsAsync()
+      if( status !== 'granted' ){
+        alert("Permission to access location was denied");
+        return;
+      }
+     }
+     GetLocationPermission()

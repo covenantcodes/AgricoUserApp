@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "266804478205",
+    "project_id": "agricco-e7b07",
+    "storage_bucket": "agricco-e7b07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266804478205:android:c37db14acaab9ffaae3e94",
+        "android_client_info": {
+          "package_name": "com.agriccoinc.agricco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266804478205-oc3appfjqjtdcsute8v0s8je5doka98u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB23uKwx8R5baZHXdtWouoSnaUYhaAs9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266804478205-oc3appfjqjtdcsute8v0s8je5doka98u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
