@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme":"com.agriccoinc.agricco",
+    "scheme": "com.agriccofoods.agricco",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,7 +22,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package":"com.agriccoinc.agricco",
+      "package": "com.agriccofoods.agricco",
       "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -34,7 +34,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "e7c28333-dab2-46d4-bb12-b56eb95f5143"
+        "projectId": "f5896779-e7d6-4893-9a55-e928934d64f2"
       }
     }
   }
