@@ -2,7 +2,7 @@
   "expo": {
     "name": "Agrico",
     "slug": "Agrico",
-    "version": "1.0.0",
+    "version": "4.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "com.agriccofoods.agricco",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff" 
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,10 +23,12 @@
     },
     "android": {
       "package": "com.agriccofoods.agricco",
+      "versionCode": 6,
       "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#FFFFFF",
+        "blockedPermissions": ["android.permission.RECORD_AUDIO, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION"]
       }
     },
     "web": {

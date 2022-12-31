@@ -81,12 +81,13 @@ export default function App() {
   },[] )
 
 
-  const BaseUrl = BASEURL; 
 
-//  const BaseUrl = "http://192.168.43.81:5001/"
+  const ApiBaseUrl = "https://agrico-backend-production.up.railway.app/"
+  
+  const BaseUrl = ApiBaseUrl; 
+
 // 
-  Axios.defaults.baseURL = BaseUrl; 
-
+  Axios.defaults.baseURL = ApiBaseUrl; 
 
 
 
